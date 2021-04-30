@@ -204,7 +204,7 @@ class Login extends React.Component<ILoginProps> {
                             htmlType={'submit'}
                             type="danger"
                           >
-                            {'Login as SuperAdmin'}
+                            {'Login'}
                           </Button>
                         </Col>
                       </Row>
