@@ -1,0 +1,60 @@
+@import '~antd/lib/style/themes/default.less';
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    text-align: left;
+    margin-top: 24px;
+    line-height: 22px;
+
+    .register {
+      float: right;
+    }
+  }
+  .h-md-100 {
+    height: 100vh;
+  }
+}
+.footnote {
+  // position: static;
+  left: 0;
+  margin-top: 10px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.login-box {
+  display: block;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.login-border-box {
+  background-color: #d9dbe4;
+  border: 1px solid #d9dbe4;
+  margin-top: 10%;
+  @media screen and (max-width: 768px) {
+    margin-inline: 5%;
+  }
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 10px 20px;
+}

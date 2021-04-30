@@ -1,0 +1,347 @@
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /*don't forget prefixes*/
+  background-image: url('../../images/user.svg');
+  background-position: center center;
+  /* as mentioned by Vad: */
+  background-size: cover;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.username {
+  margin-top: 21px;
+}
+
+/* Calendar */
+.display-date {
+  text-align: 'center';
+}
+
+/* Stacked hroizontal bar chart */
+#fruit-meter {
+  border: 2px solid rgb(244 244 244);
+  border-radius: 10px;
+  overflow: hidden;
+  /* New code below: */
+}
+
+#temp {
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 20fr 5fr 10fr 2fr 12fr;
+}
+
+#green {
+  border: 2px solid #48bb78;
+  color: #666666c2;
+}
+
+#yellow {
+  border: 2px solid #ecc94b;
+  color: #666666c2;
+}
+
+#orange {
+  border: 2px solid #ed8936;
+  color: #666666c2;
+}
+
+#red {
+  border: 2px solid #e95a5a;
+  color: #666666c2;
+}
+
+#blue {
+  border: 2px solid #3b8bf3;
+  color: #666666c2;
+}
+
+#fruit-meter div {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*     ______________________________                      Calendar                       ______________________________                   */
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+table.calendar {
+  border-collapse: collapse;
+}
+
+table.calendar thead {
+  background-color: #5a5a5a;
+  color: white;
+  margin-bottom: 3px;
+  border-bottom: 2px solid white;
+}
+
+table.calendar thead th {
+  font-weight: lighter;
+  padding: 10px 3px;
+}
+
+table.calendar thead th.bolder {
+  font-weight: bold;
+}
+
+table.calendar tbody {
+  font-size: 0.8em;
+}
+
+table.calendar td {
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(185, 185, 185, 0.13);
+  min-width: 15px;
+}
+
+table.calendar tr:last-child td {
+  border-bottom: none;
+}
+
+table.calendar td.month-name {
+  font-weight: bold;
+  text-align: left;
+  cursor: default;
+  border-left: none;
+}
+
+table.calendar td.prev-month,
+table.calendar td.next-month {
+  color: transparent;
+  cursor: default;
+  pointer-events: none;
+}
+
+table.calendar td.week-separator {
+  pointer-events: none;
+  padding: 0;
+  width: 8px;
+  min-width: 0;
+}
+
+table.calendar td.leaveRejected {
+  background-color: #eba1a1;
+}
+table.calendar td.leaveTaken {
+  background-color: #e0cb7d;
+}
+table.calendar td.leaveApproved {
+  background-color: #a3dbba;
+}
+table.calendar td.leaveRequested {
+  background-color: #f3c49e;
+}
+table.calendar td.holidays {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
+table.calendar td.weekend {
+  font-style: italic;
+  font-weight: bold;
+}
+
+table.calendar td.bolder {
+  font-weight: bold;
+}
+
+table.calendar td.leaveRejected.range,
+table.calendar td.leaveRejected.selected {
+  background-color: #e95a5a;
+  font-weight: bold;
+}
+table.calendar td.leaveTaken.range,
+table.calendar td.leaveTaken.selected {
+  background-color: #ecc94b;
+  font-weight: bold;
+}
+table.calendar td.leaveApproved.range,
+table.calendar td.leaveApproved.selected {
+  background-color: #48bb78;
+  font-weight: bold;
+}
+table.calendar td.leaveRequested.range,
+table.calendar td.leaveRequested.selected {
+  background-color: #ed8936;
+  font-weight: bold;
+}
+
+div.calendar-controls {
+  margin: 5px auto;
+  display: table;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+div.calendar-controls div {
+  display: inline;
+}
+
+div.calendar-controls .current-year {
+  margin: 0 30px;
+}
+
+div.calendar-controls .control {
+  font-weight: bolder;
+  color: #323232;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+div.calendar-controls .today {
+  position: absolute;
+  right: 15px;
+  line-height: 35px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+
+/* Demo */
+
+div#calendar {
+  width: 400px;
+  margin-right: 0px;
+  margin-left: auto;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #5a5a5a;
+  background-color: white;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* div#root {
+    display: table;
+    margin: 50px auto;
+} */
+
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  color: #404040;
+}
+
+h1 {
+  text-align: center;
+  color: #b10909;
+}
+
+a {
+  color: #b10909;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.demoLink {
+  text-decoration: underline;
+}
+
+div.options {
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 30px;
+}
+
+div.options select {
+  margin-left: 10px;
+}
+
+div.options .half {
+  width: 48%;
+  display: inline-table;
+}
+
+div.options textarea {
+  height: 320px;
+  width: 100%;
+  resize: vertical;
+  padding: 5px;
+}
+
+div.options textarea.error {
+  border-color: darkred;
+  box-shadow: darkred 0 0 5px inset;
+}
+
+div.options .half a {
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+
+p.interactiveDemo {
+  font-style: italic;
+}
+
+p.interactiveDemo i {
+  background-color: #e2e2e2;
+  font-style: normal;
+  font-family: monospace;
+  padding: 2px 5px;
+}
+.calender-cell {
+  text-align: right;
+  width: auto;
+  border-radius: 20px;
+  height: 100%;
+}
+
+/* Button CSS */
+.heading {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.btn-primary.outline:hover,
+.btn-primary.outline:focus,
+.btn-primary.outline:active,
+.btn-primary.outline.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #33a6cc;
+  border-color: #33a6cc;
+}
+.btn-primary.outline:active,
+.btn-primary.outline.active {
+  border-color: #007299;
+  color: #007299;
+  box-shadow: none;
+}
+.btn-primary.outline {
+  border: 2px solid #0099cc;
+  color: #0099cc;
+}
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
