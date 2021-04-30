@@ -16,10 +16,10 @@
     "static/css/8.0c87240d.chunk.css": "/untangle_holiday/static/css/8.0c87240d.chunk.css",
     "static/js/8.af34058a.chunk.js": "/untangle_holiday/static/js/8.af34058a.chunk.js",
     "main.css": "/untangle_holiday/static/css/main.e042061c.chunk.css",
-    "main.js": "/untangle_holiday/static/js/main.7e2d5649.chunk.js",
+    "main.js": "/untangle_holiday/static/js/main.d87ba9c1.chunk.js",
     "runtime-main.js": "/untangle_holiday/static/js/runtime-main.6890b682.js",
     "static/css/11.338b5900.chunk.css": "/untangle_holiday/static/css/11.338b5900.chunk.css",
-    "static/js/11.fcf668c1.chunk.js": "/untangle_holiday/static/js/11.fcf668c1.chunk.js",
+    "static/js/11.1deb0537.chunk.js": "/untangle_holiday/static/js/11.1deb0537.chunk.js",
     "static/css/12.479e7ece.chunk.css": "/untangle_holiday/static/css/12.479e7ece.chunk.css",
     "static/js/12.24f426a7.chunk.js": "/untangle_holiday/static/js/12.24f426a7.chunk.js",
     "static/css/13.2e9a632b.chunk.css": "/untangle_holiday/static/css/13.2e9a632b.chunk.css",
@@ -61,10 +61,10 @@
     "abp.js": "/untangle_holiday/abp.js",
     "abp.signalr-client.js": "/untangle_holiday/abp.signalr-client.js",
     "index.html": "/untangle_holiday/index.html",
-    "precache-manifest.ff4214c2c8ac8735694b2aeb643d0979.js": "/untangle_holiday/precache-manifest.ff4214c2c8ac8735694b2aeb643d0979.js",
+    "precache-manifest.3e238530ac58e212390c46c600703674.js": "/untangle_holiday/precache-manifest.3e238530ac58e212390c46c600703674.js",
     "service-worker.js": "/untangle_holiday/service-worker.js",
     "signalr.min.js": "/untangle_holiday/signalr.min.js",
-    "static/js/11.fcf668c1.chunk.js.LICENSE.txt": "/untangle_holiday/static/js/11.fcf668c1.chunk.js.LICENSE.txt",
+    "static/js/11.1deb0537.chunk.js.LICENSE.txt": "/untangle_holiday/static/js/11.1deb0537.chunk.js.LICENSE.txt",
     "static/js/15.07535d94.chunk.js.LICENSE.txt": "/untangle_holiday/static/js/15.07535d94.chunk.js.LICENSE.txt",
     "static/js/17.b1f39837.chunk.js.LICENSE.txt": "/untangle_holiday/static/js/17.b1f39837.chunk.js.LICENSE.txt",
     "static/js/18.c0922b5b.chunk.js.LICENSE.txt": "/untangle_holiday/static/js/18.c0922b5b.chunk.js.LICENSE.txt",
@@ -96,8 +96,8 @@
   "entrypoints": [
     "static/js/runtime-main.6890b682.js",
     "static/css/11.338b5900.chunk.css",
-    "static/js/11.fcf668c1.chunk.js",
+    "static/js/11.1deb0537.chunk.js",
     "static/css/main.e042061c.chunk.css",
-    "static/js/main.7e2d5649.chunk.js"
+    "static/js/main.d87ba9c1.chunk.js"
   ]
 }

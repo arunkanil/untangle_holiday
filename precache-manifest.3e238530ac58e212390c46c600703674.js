@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1a8011ce7bf7a566c9cb0140593f596",
+    "revision": "80bae96f33446fbf95f5fc5a74f28c6c",
     "url": "/untangle_holiday/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/untangle_holiday/static/css/0.de1c6f3c.chunk.css"
   },
   {
-    "revision": "dc88b1dfa6325dd80219",
+    "revision": "99e23fd171e841e3beb7",
     "url": "/untangle_holiday/static/css/11.338b5900.chunk.css"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/untangle_holiday/static/css/8.0c87240d.chunk.css"
   },
   {
-    "revision": "a39f23a4998a2dfe3aee",
+    "revision": "b8f40272b08e04fb4e58",
     "url": "/untangle_holiday/static/css/main.e042061c.chunk.css"
   },
   {
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/untangle_holiday/static/js/1.b0848c0e.chunk.js"
   },
   {
-    "revision": "dc88b1dfa6325dd80219",
-    "url": "/untangle_holiday/static/js/11.fcf668c1.chunk.js"
+    "revision": "99e23fd171e841e3beb7",
+    "url": "/untangle_holiday/static/js/11.1deb0537.chunk.js"
   },
   {
     "revision": "39479d911a726fb8a97eb8dbf747ab4f",
-    "url": "/untangle_holiday/static/js/11.fcf668c1.chunk.js.LICENSE.txt"
+    "url": "/untangle_holiday/static/js/11.1deb0537.chunk.js.LICENSE.txt"
   },
   {
     "revision": "6091b3da8dd248edcf5c",
@@ -292,8 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/untangle_holiday/static/js/8.af34058a.chunk.js"
   },
   {
-    "revision": "a39f23a4998a2dfe3aee",
-    "url": "/untangle_holiday/static/js/main.7e2d5649.chunk.js"
+    "revision": "b8f40272b08e04fb4e58",
+    "url": "/untangle_holiday/static/js/main.d87ba9c1.chunk.js"
   },
   {
     "revision": "41f070096ea31b8dc859",
