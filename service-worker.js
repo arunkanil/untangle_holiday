@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/untangle_holiday/precache-manifest.3e238530ac58e212390c46c600703674.js"
+  "/untangle_holiday/precache-manifest.7552cbf8e9d398a35daf36bd2c8394a9.js"
 );
 
 self.addEventListener('message', (event) => {
