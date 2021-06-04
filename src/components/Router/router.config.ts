@@ -13,7 +13,7 @@ export const userRouter: any = [
     path: '/user/login',
     name: 'login',
     title: 'LogIn',
-    component: LoadableComponent(() => import('../../scenes/AdminLogin')),
+    component: LoadableComponent(() => import('../../scenes/Login')),
     showInMenu: false,
   },
   {
