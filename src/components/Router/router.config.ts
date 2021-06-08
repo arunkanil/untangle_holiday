@@ -13,14 +13,14 @@ export const userRouter: any = [
     path: '/user/login',
     name: 'login',
     title: 'LogIn',
-    component: LoadableComponent(() => import('../../scenes/Login')),
+    component: LoadableComponent(() => import('../../scenes/AdminLogin')),
     showInMenu: false,
   },
   {
     path: '/user/adminlogin',
     name: 'login',
     title: 'AdminLogIn',
-    component: LoadableComponent(() => import('../../scenes/AdminLogin')),
+    component: LoadableComponent(() => import('../../scenes/Login')),
     showInMenu: false,
   },
 ];
